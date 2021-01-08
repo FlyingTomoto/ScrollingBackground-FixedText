@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.fixed-bg {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: table;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.fixed-bg h1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll-bg {
+    background-color: black;
+    height: .25em;
+}
+
+.bg-1 {
+    background-image: url(/Fixed-Background-Scrolling-Text/anders-jilden-Sc5RKXLBjGg-unsplash.jpg);
+}
+
+.bg-2 {
+    background-image: url(/Fixed-Background-Scrolling-Text/andrew-seaman-lzg7pY1ZhLo-unsplash.jpg);
+}
+
+.bg-3 {
+    background-image: url(/Fixed-Background-Scrolling-Text/matthew-henry-VviFtDJakYk-unsplash.jpg);
+}
